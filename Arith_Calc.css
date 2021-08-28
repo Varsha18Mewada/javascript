@@ -1,0 +1,72 @@
+#head1{
+	color:purple;
+	text-align:center;
+	margin-top:80px;
+}
+
+#head{
+	color:red;
+	text-align:center;
+}
+#dee{
+	width:500px;
+	height:450px;	
+}
+
+#input1:focus{outline:none;}
+
+#tree{
+	font-size:23px;
+	color:red;
+	text-align:center;
+	font-weight:bold;
+	margin-left:40px;
+	
+}
+#tree1{
+	font-size:23px;
+	color:red;
+	text-align:center;
+	font-weight:bold;
+	margin-left:40px;
+	
+}
+#tree2{
+	font-size:23px;
+	color:red;
+	text-align:center;
+	font-weight:bold;
+	margin-left:40px;
+	
+}
+#tree3{
+	font-size:23px;
+	color:red;
+	text-align:center;
+	font-weight:bold;
+	margin-left:40px;
+	
+}
+
+#push{
+	background-color:black;
+	color:white;
+	text-align:center;
+	width:340px;
+	height:25px;
+	margin-top:40px;
+}
+#input1{
+	width:340px;
+	height:40px;
+	font-size:23px;
+	color:red;
+	margin-left:0px;
+}
+#input2{
+	width:340px;
+	height:40px;
+	font-size:23px;
+	color:red;
+	margin-left:0px;
+}
