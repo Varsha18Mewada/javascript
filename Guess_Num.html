@@ -1,0 +1,87 @@
+<html>
+<head><title>Guess Number</title>
+</head>
+<style type="text/css">
+h1{
+color:red;
+text-align:center;
+}
+#select{
+width:230px;
+height:30px;
+background-color:orange;
+margin-left:500px;
+
+}
+#select:hover{
+border:2px solid red;
+}
+#button{
+background-color:black;
+width:230px;
+height:30px;
+margin-left:500px;
+color:white;
+}
+#button:hover{
+border:2px solid red;
+}
+#result{
+font-weight:bold;
+margin-left:520px;
+margin-top:50px;
+font-size:25px;
+}
+#result1{
+color:red;
+font-size:25px;
+margin-left:520px;
+margin-top:40px;
+}
+</style>
+<h1>SELECT THE NO BETWEEN 0 TO 10</h1>
+<p>
+    <select id="select">
+	<option>0</option>
+	<option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+
+	</select>
+</p>
+<button id="button">GuessMe!!</button>
+<p id="result">__RESULT__</p>
+<p id="result1">Result Will be Shown here.......</p>
+<body>
+<script type="text/javascript">
+document.getElementById("button").onclick=function(){
+var user=document.getElementById("select").value;
+var countguess=1;
+var bharti=true;
+              while(bharti==true)
+			  {
+			  var random=Math.random();
+			  random=random*11;
+			  random=Math.floor(random);
+			  if(random==user)
+			  {
+			  bharti=false;
+			  document.getElementById("result1").innerHTML="The no is "+user+" It tool me "+countguess+" guesses.";
+			  }
+			  else
+			  {
+			  countguess++;
+			  }
+			  }
+			  }
+			  </script>
+			  
+</body>
+</html>
